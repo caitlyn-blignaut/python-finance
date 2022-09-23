@@ -2,7 +2,7 @@
 
 ## Table of Contents
 1. [Course Outline](#Course-Outline)
-### Part 1 - Python
+### [Part 1 - Python](#Part1)
 2. [Intro to Python](#Intro-to-Python)
 3. [Python Variables and Data Types](#Python-Variables-and-Data-Types)
 4. [Basic Python Syntax](#Basic-Python-Syntax)
@@ -12,7 +12,7 @@
 8. [Python Sequences](#Python-Sequences)
 9. [Using Iterations in Python](#Using-Iterations-in-Python)
 10. [Advanced Python Tools](#Advanced-Python-Tools)
-### Part 2 - Finance
+### [Part 2 - Finance](#Part2)
 11. [Calculating and Comparing Rates of Return](#Calculating-and-Comparing-Rates-of-Return)
 12. [Measuring Investment Risk](#Measuring-Investment-Risk)
 13. [Using Regressions for Financial Analysis](#Using-Regressions-for-Financial-Analysis)
@@ -20,11 +20,11 @@
 15. [The Capital Asset Pricing Model](#The-Capital-Asset-Pricing-Model)
 16. [Multivariate Regression Analysis](#Multivariate-Regression-Analysis)
 17. [Monte Carlo Simulations as a Decision-Making Tool](#Monte-Carlo-Simulations-as-a-Decision-Making-Tool)
-### Appendix
+### [Appendix](#Appendix)
 18. [pandas Fundamentals](#pandas-Fundamentals)
 19. [Technical Analysis](#Technical-Analysis)
 
-## Part 1 - Python
+## Part 1 - Python <a name="Part1"></a>
 ### 1. Course Outline <a name="Course-Outline"></a>
 ### 2. Intro to Python <a name="Intro-to-Python"></a>
 ### 3. Python Variables and Data Types <a name="Python-Variables-and-Data-Types"></a>
@@ -35,7 +35,7 @@
 ### 8. Python Sequences <a name="Python-Sequences"></a>
 ### 9. Using Iterations in Python <a name="Using-Iterations-in-Python"></a>
 ### 10. Advanced Python Tools <a name="Advanced-Python-Tools"></a>
-## Part 2 - Finance
+## Part 2 - Finance <a name="Part2"></a>
 ### 11. Calculating and Comparing Rates of Return <a name="Calculating-and-Comparing-Rates-of-Return"></a>
 ### 12. Measuring Investment Risk <a name="Measuring-Investment-Risk"></a>
 ### 13. Using Regressions for Financial Analysis <a name="Using-Regressions-for-Financial-Analysis"></a>
@@ -44,6 +44,6 @@
 ### 16. Multivariate Regression Analysis <a name="Multivariate-Regression-Analysis"></a>
 ### 17. Monte Carlo Simulations as a Decision-Making Tool <a name="Monte-Carlo-Simulations-as-a-Decision-Making-Tool"></a>
 
-## Appendix
+## Appendix <a name="Appendix"></a>
 ### 18. pandas Fundamentals <a name="pandas-Fundamentals"></a>
 ### 19. Technical Analysis <a name="Technical-Analysis"></a>
