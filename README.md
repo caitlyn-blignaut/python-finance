@@ -24,8 +24,47 @@
 18. [pandas Fundamentals](#pandas-Fundamentals)
 19. [Technical Analysis](#Technical-Analysis)
 
-## Part 1 - Python <a name="Part1"></a>
 ### 1. Course Outline <a name="Course-Outline"></a>
+
+#### PART 1 - Python
+- Step 1 - Learn the basics
+  - Syntax
+  - Data Types
+  - Operators
+  - Conditional Statements
+  - Functions
+  - Lists
+  - Tuples
+  - Dictionaries
+  - Loops
+- Step 2 - More Advanced Python
+  - Object-oriented programming
+  - Import libraries & modules
+  - Load & Organise data
+
+#### PART 2 - Finance
+- Stock returns
+- Risk
+- Form investment portfolios (risk and return)
+- Correlation
+- Diversify a portfolio
+- Regression
+- Markowitz's efficient frontier analysis
+- What is a stock's beta?
+- How to apply CAPM (Capital Asset Pricing Model) in practice
+- Multivariate regressions
+- Monte Carlo simulations
+  - Corporate Finance context
+  - Estimate stock option price
+  - Price a stock
+
+Approach:
+- Finance theory behind a concept
+- How to apply the theory in practice using python
+- 
+
+
+## Part 1 - Python <a name="Part1"></a>
 ### 2. Intro to Python <a name="Intro-to-Python"></a>
 ### 3. Python Variables and Data Types <a name="Python-Variables-and-Data-Types"></a>
 ### 4. Basic Python Syntax <a name="Basic-Python-Syntax"></a>
