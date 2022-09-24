@@ -61,11 +61,21 @@
 Approach:
 - Finance theory behind a concept
 - How to apply the theory in practice using python
-- 
 
 
 ## Part 1 - Python <a name="Part1"></a>
 ### 2. Intro to Python <a name="Intro-to-Python"></a>
+
+#### Why Python?
+- Technical advantages over other programming languages
+  - Open source
+    - Free
+    - Multi-platform  
+  - General Purpose
+  - High Level
+- Practical applications as a computational tool
+
+
 ### 3. Python Variables and Data Types <a name="Python-Variables-and-Data-Types"></a>
 ### 4. Basic Python Syntax <a name="Basic-Python-Syntax"></a>
 ### 5. Python Operators (cont.) <a name="Python-Operators-cont"></a>
