@@ -136,14 +136,16 @@ Identity Operators
 
 If statement
 e.g. 
-`if x > 200:`
-  `print ("Big")`
-`elif x > 100 and x <= 200:`
-    `print ("Average")`
-`elif x >= 0 and x <= 100:`
-    `print ("Small")`
-`else:` 
-    `print ("Negative")`
+```
+if x > 200:
+    print ("Big")
+elif x > 100 and x <= 200:
+    print ("Average")
+elif x >= 0 and x <= 100:
+    print ("Small")
+else: 
+    print ("Negative")
+```
     
 ### 7. Python Functions <a name="Python-Functions"></a>
 ### 8. Python Sequences <a name="Python-Sequences"></a>
