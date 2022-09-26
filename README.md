@@ -106,7 +106,7 @@ e.g. x,y = (1,2)
 
 ### 4. Basic Python Syntax <a name="Basic-Python-Syntax"></a>
 
-Mathematical operations
+Arithmetic operations
 - To the power of - use `**` e.g. 5 to the power of 2 => `5**2`
 
 ### 5. Python Operators (cont.) <a name="Python-Operators-cont"></a>
