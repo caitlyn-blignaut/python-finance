@@ -120,6 +120,12 @@ Indexing
 Indentation
 - Indentation defines blocks of code
 
+Logical Operators
+- Order of Importance
+  1. NOT
+  2. AND
+  3. OR
+
 ### 5. Python Operators (cont.) <a name="Python-Operators-cont"></a>
 ### 6. Conditional Statements <a name="Conditional-Statements"></a>
 ### 7. Python Functions <a name="Python-Functions"></a>
