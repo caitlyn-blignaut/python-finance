@@ -73,10 +73,37 @@ Approach:
     - Multi-platform  
   - General Purpose
   - High Level
+    - Intuitive syntax   
 - Practical applications as a computational tool
+  - Excel is not equipped to deal with BIG data
 
+#### Why Jupyter?
+- We need a client to help us read the python code
+- We will be using IPython Notebook documents (*.ipynb)
+
+#### IDE
+Commands:
+- Ctrl + Enter => execute code
+- Shift + Enter => execute code and create a new cell
+- X => cut
+- C => copy
+- V => paste
+- A => insert new cell above
+- B => insert new cell below
+- D + D => delete a cell
+- Y => convert cell to Code cell
+- M => convert cell to Markdown cell
+
+#### Python 2 vs Python 3
+- print vs print()
+- Integer Division: Python 2 does not convert remainders to floats when it comes to division of integers
+- range() vs xrange()
 
 ### 3. Python Variables and Data Types <a name="Python-Variables-and-Data-Types"></a>
+
+Assign multiple values to multiple variables
+e.g. x,y = (1,2)
+
 ### 4. Basic Python Syntax <a name="Basic-Python-Syntax"></a>
 ### 5. Python Operators (cont.) <a name="Python-Operators-cont"></a>
 ### 6. Conditional Statements <a name="Conditional-Statements"></a>
