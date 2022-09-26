@@ -117,6 +117,9 @@ Indexing
 - Use square brackets `[]` to get an element from an array e.g. `'Hello'[3] => 'l'`
 - Indexing is **zero based**
 
+Indentation
+- Indentation defines blocks of code
+
 ### 5. Python Operators (cont.) <a name="Python-Operators-cont"></a>
 ### 6. Conditional Statements <a name="Conditional-Statements"></a>
 ### 7. Python Functions <a name="Python-Functions"></a>
