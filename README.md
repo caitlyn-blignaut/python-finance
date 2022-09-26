@@ -126,8 +126,25 @@ Logical Operators
   2. AND
   3. OR
 
+Identity Operators
+- IS
+- IS NOT
+
+
 ### 5. Python Operators (cont.) <a name="Python-Operators-cont"></a>
 ### 6. Conditional Statements <a name="Conditional-Statements"></a>
+
+If statement
+e.g. 
+`if x > 200:`
+  `print ("Big")`
+`elif x > 100 and x <= 200:`
+    `print ("Average")`
+`elif x >= 0 and x <= 100:`
+    `print ("Small")`
+`else:` 
+    `print ("Negative")`
+    
 ### 7. Python Functions <a name="Python-Functions"></a>
 ### 8. Python Sequences <a name="Python-Sequences"></a>
 ### 9. Using Iterations in Python <a name="Using-Iterations-in-Python"></a>
