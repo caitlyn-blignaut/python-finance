@@ -168,6 +168,24 @@ OR
 ```
 compare_the_two(b=2, a=1)
 ```
+
+Built-in functions
+- Types
+  - int()
+  - float()
+  - str()
+  - type()
+- Mathematical
+  - max(a,b,c,etc)
+  - min(a,b,c,etc)
+  - abs(-10) = 10
+  - sum(list) => `list = [1,2,3.4]`
+  - round(x,y)
+  - pow(a,b) => `a ** b`
+- Other
+  - len()
+- And many many more....
+
 ### 8. Python Sequences <a name="Python-Sequences"></a>
 ### 9. Using Iterations in Python <a name="Using-Iterations-in-Python"></a>
 ### 10. Advanced Python Tools <a name="Advanced-Python-Tools"></a>
