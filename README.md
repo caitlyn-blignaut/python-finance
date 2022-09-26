@@ -148,6 +148,26 @@ else:
 ```
     
 ### 7. Python Functions <a name="Python-Functions"></a>
+
+Syntax
+```
+def compare_the_two(a, b):
+    if a > b:
+        print ("Greater")
+    elif a < b:
+        print ("Less")
+    else:
+        print ("Equal")
+```
+
+Calling a function
+```
+compare_the_two(1, 2)
+```
+OR
+```
+compare_the_two(b=2, a=1)
+```
 ### 8. Python Sequences <a name="Python-Sequences"></a>
 ### 9. Using Iterations in Python <a name="Using-Iterations-in-Python"></a>
 ### 10. Advanced Python Tools <a name="Advanced-Python-Tools"></a>
