@@ -187,6 +187,42 @@ Built-in functions
 - And many many more....
 
 ### 8. Python Sequences <a name="Python-Sequences"></a>
+
+Lists
+- Define using `[]` e.g. `Numbers = [1,2,3]`
+- To delete an element - use the `del` keyword e.g. `del Numbers[1]`
+- To add a single entry to the end - use the `.append()` operator e.g. `Numbers.append(4)`
+- To add multiple entries to the end - use the `.extend([])` operator e.g. `Numbers.extend([5,6])`
+
+List Slicing
+- To obtain a range of elements from a list - use `[a:b]` - where a is the starting element and b is the ending element plus 1
+- If you want to slice from the beginning - use `[:b]`
+- If you want to slice to the end - use `[a:]` or `[-c:]` where c is the number of elements from the end
+- Obtain index of an entry - use `.index()`
+- You can also append 2 lists within a list - e.g. `[Numbers, MoreNumbers]` where both entries are defined as lists
+- To order elements in a list - use `.sort()` or `.sort(reverse=True)` to sort in descending order
+
+Tuples
+- Like list but they are immutable - you cannot append or change them
+- Define using `()` e.g. `x = (1,2,3)`
+- Tuple is the default sequence type e.g. `y = 1,2,3,4` will be a tuple
+- This is how you can assign multiple values to mutiple variables on the same line e.g. `a, b, c = 1, 2, 3`
+  - This is just a tuple of variables on the left and a tuple of values on the right
+- Indexing works the same as in lists
+- You can place tuples within a list and then each tuple becomes a separate element within the list e.g. `List = [x,y]`
+- Tuples can be helpful for variable assignment e.g. `(age, years_of_school) = "30,17".split(',')` will assign 30 to age and 17 to years_of_school
+- Functions can return a tuple!
+
+Dictionaries
+- Consist of key-value pairs
+- Define using `{key:value}` e.g. `dict = {"k1":"a", "k2":"b"}`
+- Obtain elements of a dictionary using the key (not the index) e.g. `dict["k1"]`
+- Add new key value pairs by assigning a new key to a value e.g. `dict["k3"] = "c"`
+- Change an existing value by assigning an existing key to a new value e.g. `dict["k2"] = "z"`
+- Values can be lists/tuples e.g. `dict["k4"] = ["x","y","z"]`
+- We can create an empty dictionary by `empty_dict = {}` and add to the dictionary by assigning keys and values one by one
+- Can use the `.get()` method to get a value for a key. If that key does not exist then it will return 'None' (default value)
+
 ### 9. Using Iterations in Python <a name="Using-Iterations-in-Python"></a>
 ### 10. Advanced Python Tools <a name="Advanced-Python-Tools"></a>
 ## Part 2 - Finance <a name="Part2"></a>
