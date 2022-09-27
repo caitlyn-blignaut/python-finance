@@ -221,12 +221,30 @@ Dictionaries
 
 ### 8. Using Iterations in Python <a name="Using-Iterations-in-Python"></a>
 
-For loop
+#### For loop
 ```
 for n in digits:
     print(n, end = " ")
 ```
+
+#### While loop
+- Be VERY careful! Do NOT forget to increment the variable inside the while loop!
+```
+x = 0
+while x <= 20:
+  print (x, end = " ")
+  x = x + 2
+```
     
+#### Range function
+Syntax
+```
+range(start, stop, step)
+```
+start = first number in list (optional)
+stop = last value + 1 (*required)
+step = distance between two consecutive values (optional)
+
 ### 9. Advanced Python Tools <a name="Advanced-Python-Tools"></a>
 ## Part 2 - Finance <a name="Part2"></a>
 ### 10. Calculating and Comparing Rates of Return <a name="Calculating-and-Comparing-Rates-of-Return"></a>
