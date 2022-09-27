@@ -6,23 +6,22 @@
 2. [Intro to Python](#Intro-to-Python)
 3. [Python Variables and Data Types](#Python-Variables-and-Data-Types)
 4. [Basic Python Syntax](#Basic-Python-Syntax)
-5. [Python Operators (cont.)](#Python-Operators-cont)
-6. [Conditional Statements](#Conditional-Statements)
-7. [Python Functions](#Python-Functions)
-8. [Python Sequences](#Python-Sequences)
-9. [Using Iterations in Python](#Using-Iterations-in-Python)
-10. [Advanced Python Tools](#Advanced-Python-Tools)
+5. [Conditional Statements](#Conditional-Statements)
+6. [Python Functions](#Python-Functions)
+7. [Python Sequences](#Python-Sequences)
+8. [Using Iterations in Python](#Using-Iterations-in-Python)
+9. [Advanced Python Tools](#Advanced-Python-Tools)
 ### [Part 2 - Finance](#Part2)
-11. [Calculating and Comparing Rates of Return](#Calculating-and-Comparing-Rates-of-Return)
-12. [Measuring Investment Risk](#Measuring-Investment-Risk)
-13. [Using Regressions for Financial Analysis](#Using-Regressions-for-Financial-Analysis)
-14. [Markowitz Portfolio Optinmization](#Markowitz-Portfolio-Optinmization)
-15. [The Capital Asset Pricing Model](#The-Capital-Asset-Pricing-Model)
-16. [Multivariate Regression Analysis](#Multivariate-Regression-Analysis)
-17. [Monte Carlo Simulations as a Decision-Making Tool](#Monte-Carlo-Simulations-as-a-Decision-Making-Tool)
+10. [Calculating and Comparing Rates of Return](#Calculating-and-Comparing-Rates-of-Return)
+11. [Measuring Investment Risk](#Measuring-Investment-Risk)
+12. [Using Regressions for Financial Analysis](#Using-Regressions-for-Financial-Analysis)
+13. [Markowitz Portfolio Optinmization](#Markowitz-Portfolio-Optinmization)
+14. [The Capital Asset Pricing Model](#The-Capital-Asset-Pricing-Model)
+15. [Multivariate Regression Analysis](#Multivariate-Regression-Analysis)
+16. [Monte Carlo Simulations as a Decision-Making Tool](#Monte-Carlo-Simulations-as-a-Decision-Making-Tool)
 ### [Appendix](#Appendix)
-18. [pandas Fundamentals](#pandas-Fundamentals)
-19. [Technical Analysis](#Technical-Analysis)
+17. [pandas Fundamentals](#pandas-Fundamentals)
+18. [Technical Analysis](#Technical-Analysis)
 
 ### 1. Course Outline <a name="Course-Outline"></a>
 
@@ -109,7 +108,6 @@ e.g. x,y = (1,2)
 Strings
 - Strings are an array of characters in Python
 
-
 Arithmetic operations
 - To the power of - use `**` e.g. 5 to the power of 2 => `5**2`
 
@@ -130,9 +128,7 @@ Identity Operators
 - IS
 - IS NOT
 
-
-### 5. Python Operators (cont.) <a name="Python-Operators-cont"></a>
-### 6. Conditional Statements <a name="Conditional-Statements"></a>
+### 5. Conditional Statements <a name="Conditional-Statements"></a>
 
 If statement
 e.g. 
@@ -147,7 +143,7 @@ else:
     print ("Negative")
 ```
     
-### 7. Python Functions <a name="Python-Functions"></a>
+### 6. Python Functions <a name="Python-Functions"></a>
 
 Syntax
 ```
@@ -186,7 +182,7 @@ Built-in functions
   - len()
 - And many many more....
 
-### 8. Python Sequences <a name="Python-Sequences"></a>
+### 7. Python Sequences <a name="Python-Sequences"></a>
 
 Lists
 - Define using `[]` e.g. `Numbers = [1,2,3]`
@@ -223,17 +219,17 @@ Dictionaries
 - We can create an empty dictionary by `empty_dict = {}` and add to the dictionary by assigning keys and values one by one
 - Can use the `.get()` method to get a value for a key. If that key does not exist then it will return 'None' (default value)
 
-### 9. Using Iterations in Python <a name="Using-Iterations-in-Python"></a>
-### 10. Advanced Python Tools <a name="Advanced-Python-Tools"></a>
+### 8. Using Iterations in Python <a name="Using-Iterations-in-Python"></a>
+### 9. Advanced Python Tools <a name="Advanced-Python-Tools"></a>
 ## Part 2 - Finance <a name="Part2"></a>
-### 11. Calculating and Comparing Rates of Return <a name="Calculating-and-Comparing-Rates-of-Return"></a>
-### 12. Measuring Investment Risk <a name="Measuring-Investment-Risk"></a>
-### 13. Using Regressions for Financial Analysis <a name="Using-Regressions-for-Financial-Analysis"></a>
-### 14. Markowitz Portfolio Optinmization <a name="Markowitz-Portfolio-Optinmization"></a>
-### 15. The Capital Asset Pricing Model <a name="The-Capital-Asset-Pricing-Model"></a>
-### 16. Multivariate Regression Analysis <a name="Multivariate-Regression-Analysis"></a>
-### 17. Monte Carlo Simulations as a Decision-Making Tool <a name="Monte-Carlo-Simulations-as-a-Decision-Making-Tool"></a>
+### 10. Calculating and Comparing Rates of Return <a name="Calculating-and-Comparing-Rates-of-Return"></a>
+### 11. Measuring Investment Risk <a name="Measuring-Investment-Risk"></a>
+### 12. Using Regressions for Financial Analysis <a name="Using-Regressions-for-Financial-Analysis"></a>
+### 13. Markowitz Portfolio Optinmization <a name="Markowitz-Portfolio-Optinmization"></a>
+### 14. The Capital Asset Pricing Model <a name="The-Capital-Asset-Pricing-Model"></a>
+### 15. Multivariate Regression Analysis <a name="Multivariate-Regression-Analysis"></a>
+### 16. Monte Carlo Simulations as a Decision-Making Tool <a name="Monte-Carlo-Simulations-as-a-Decision-Making-Tool"></a>
 
 ## Appendix <a name="Appendix"></a>
-### 18. pandas Fundamentals <a name="pandas-Fundamentals"></a>
-### 19. Technical Analysis <a name="Technical-Analysis"></a>
+### 17. pandas Fundamentals <a name="pandas-Fundamentals"></a>
+### 18. Technical Analysis <a name="Technical-Analysis"></a>
