@@ -213,6 +213,16 @@ Tuples
 - Tuples can be helpful for variable assignment e.g. `(age, years_of_school) = "30,17".split(',')` will assign 30 to age and 17 to years_of_school
 - Functions can return a tuple!
 
+Dictionaries
+- Consist of key-value pairs
+- Define using `{key:value}` e.g. `dict = {"k1":"a", "k2":"b"}`
+- Obtain elements of a dictionary using the key (not the index) e.g. `dict["k1"]`
+- Add new key value pairs by assigning a new key to a value e.g. `dict["k3"] = "c"`
+- Change an existing value by assigning an existing key to a new value e.g. `dict["k2"] = "z"`
+- Values can be lists/tuples e.g. `dict["k4"] = ["x","y","z"]`
+- We can create an empty dictionary by `empty_dict = {}` and add to the dictionary by assigning keys and values one by one
+- Can use the `.get()` method to get a value for a key. If that key does not exist then it will return 'None' (default value)
+
 ### 9. Using Iterations in Python <a name="Using-Iterations-in-Python"></a>
 ### 10. Advanced Python Tools <a name="Advanced-Python-Tools"></a>
 ## Part 2 - Finance <a name="Part2"></a>
