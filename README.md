@@ -220,6 +220,13 @@ Dictionaries
 - Can use the `.get()` method to get a value for a key. If that key does not exist then it will return 'None' (default value)
 
 ### 8. Using Iterations in Python <a name="Using-Iterations-in-Python"></a>
+
+For loop
+```
+for n in digits:
+    print(n, end = " ")
+```
+    
 ### 9. Advanced Python Tools <a name="Advanced-Python-Tools"></a>
 ## Part 2 - Finance <a name="Part2"></a>
 ### 10. Calculating and Comparing Rates of Return <a name="Calculating-and-Comparing-Rates-of-Return"></a>
