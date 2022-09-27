@@ -237,15 +237,39 @@ while x <= 20:
 ```
     
 #### Range function
-Syntax
+Creates a range of values => a range object is created not a list
 ```
 range(start, stop, step)
 ```
 start = first number in list (optional - default = 0) \
 stop = last value + 1 (*required*) \
-step = distance between two consecutive values (optional  - default = 1) \
+step = distance between two consecutive values (optional  - default = 1)
+
+To create a list from a range - use the `list()` function
+```
+list(range(start, stop, step))
+```
+
+Iterating over Dictionaries
+- for loop - loops through the keys of the dictionary
 
 ### 9. Advanced Python Tools <a name="Advanced-Python-Tools"></a>
+
+#### OOP
+
+Object = Data + Manipulation Operations \
+
+- Class
+  - Object
+    - Attributes
+  - Methods
+  
+Function vs Method
+- Functions can have many parameters and can exist on its own
+- Methods have the object as one if its parameters and belongs to a certain class
+
+
+
 ## Part 2 - Finance <a name="Part2"></a>
 ### 10. Calculating and Comparing Rates of Return <a name="Calculating-and-Comparing-Rates-of-Return"></a>
 ### 11. Measuring Investment Risk <a name="Measuring-Investment-Risk"></a>
