@@ -241,9 +241,9 @@ Syntax
 ```
 range(start, stop, step)
 ```
-start = first number in list (optional)
-stop = last value + 1 (*required)
-step = distance between two consecutive values (optional)
+start = first number in list (optional - default = 0) \
+stop = last value + 1 (*required*) \
+step = distance between two consecutive values (optional  - default = 1) \
 
 ### 9. Advanced Python Tools <a name="Advanced-Python-Tools"></a>
 ## Part 2 - Finance <a name="Part2"></a>
