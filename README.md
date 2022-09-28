@@ -286,6 +286,18 @@ Importing Modules
   - This could be dangerous if you import functions from different modules that have the same name for a function but it behaves differently
 - To get help text on a module/function use the `help` method - e.g. `help(math)` or `help(math.sqrt)`
 
+Arrays
+- use numpy
+- Unlike lists an array must contain the same data type
+- Create an array by using the `.array()` function from numpy - e.g. `a = np.array([[1,2,3], [4,5,6]])`
+- To get the shape of the array use the `.shape` attribute - e.g. `a.shape` => `(2L, 3L)` (this means 2 rows, 3 columns)
+- To access an element in an array use `[r,c]` where r is the row number and c is the column number - e.g. `a[1,2]` 
+  - Indexing in arrays is also zero based
+- To assign a new value to an element - `a[1,2[ = 8`
+- To access a row of an array use a single value in the square brackets - e.g. `a[1]` will obtain the second row in an array
+- 1D array = vector
+- 2D array = matrix
+
 ## Part 2 - Finance <a name="Part2"></a>
 ### 10. Calculating and Comparing Rates of Return <a name="Calculating-and-Comparing-Rates-of-Return"></a>
 ### 11. Measuring Investment Risk <a name="Measuring-Investment-Risk"></a>
