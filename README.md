@@ -278,8 +278,13 @@ Standard Library
 
 Importing Modules
 - To import a module use the `import` keyword - e.g. `import math`
-
-
+- To use functions from a module use the name of the module and the dot operator - e.g. `math.sqrt()`
+- To import specific functions from a module use the `from` keyword (there is then no need to use the dot operator) - e.g. `from math import sqrt` => we can now just call `sqrt()`
+- To rename functions from modules use the `as` keyword after the import statement - e.g. `from math import sqrt as s` => we can now use `s()` to find the square root
+- To rename a module use the `as` keyword after the import statement - e.g. `import math as m` => we can now call `m.sqrt()`
+- To import all functions from a module us `*` - e.g. `from math import *`
+  - This could be dangerous if you import functions from different modules that have the same name for a function but it behaves differently
+- To get help text on a module/function use the `help` method - e.g. `help(math)` or `help(math.sqrt)`
 
 ## Part 2 - Finance <a name="Part2"></a>
 ### 10. Calculating and Comparing Rates of Return <a name="Calculating-and-Comparing-Rates-of-Return"></a>
