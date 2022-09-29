@@ -287,7 +287,7 @@ Importing Modules
 - To get help text on a module/function use the `help` method - e.g. `help(math)` or `help(math.sqrt)`
 
 Arrays
-- use numpy
+- use numpy module
 - Unlike lists an array must contain the same data type
 - Create an array by using the `.array()` function from numpy - e.g. `a = np.array([[1,2,3], [4,5,6]])`
 - To get the shape of the array use the `.shape` attribute - e.g. `a.shape` => `(2L, 3L)` (this means 2 rows, 3 columns)
@@ -297,6 +297,21 @@ Arrays
 - To access a row of an array use a single value in the square brackets - e.g. `a[1]` will obtain the second row in an array
 - 1D array = vector
 - 2D array = matrix
+
+Generating Random Numbers
+- use random module
+- `random.random()` => generates a random number between 0 and 1
+- `random.randint(a,b)` => generates a random integer between a and b
+- To create an array of random integers use numpy - e.g. `np.random.randint(a,b,(r,c))`
+
+#### Sources of Financial Data
+The data will come from one of 2 sources
+- Web server using an API
+  - iex
+  - Morningstar
+  - Alpha Vantage
+  - Quandl
+- Your computer
 
 ## Part 2 - Finance <a name="Part2"></a>
 ### 10. Calculating and Comparing Rates of Return <a name="Calculating-and-Comparing-Rates-of-Return"></a>
