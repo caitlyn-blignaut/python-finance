@@ -306,12 +306,19 @@ Generating Random Numbers
 
 #### Sources of Financial Data
 The data will come from one of 2 sources
-- Web server using an API
-  - iex
-  - Morningstar
-  - Alpha Vantage
-  - Quandl
+- Web server using an API (Application Programming Interface)
+  - Some examples:
+    - iex (only for Python 3)
+    - Morningstar (recommended)
+    - Alpha Vantage (recommended)
+    - Quandl
+    - Yahoo! (all .csv files in this course were based on data from the Yahoo! API)
+  - Use the pandas-datareader module to read data from these APIs
 - Your computer
+  - File format will be .csv
+  - Why use .csv files
+    - Can still access data even with no connection
+
 
 ## Part 2 - Finance <a name="Part2"></a>
 ### 10. Calculating and Comparing Rates of Return <a name="Calculating-and-Comparing-Rates-of-Return"></a>
