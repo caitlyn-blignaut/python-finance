@@ -452,6 +452,28 @@ We can use the `.mean()` method to get the average rate of return for a time per
 - In order to interpret this average meaningfully we need to take into account that we only receive data on trading days - +/- 250 trading days in a year
 - We need to multiply the average by 250 in order to get a meaningful average yearly rate of return 
 
+#### Rate of Return for a Portfolio
+$$
+{\text{rate of return for portfolio}} = \sum{\text{rate of return for a security}\times\text{weight in portfolio}}
+$$
+
+#### Normalisation to 100
+- We take the first row of data - use `.iloc[0]`
+- Then we take the data set, divide it by the first row and times by 100
+- This makes everything start at the same point (normalise) - 100
+- Note: You can also use `.loc['key']` and use the date as the key - e.g. `.loc['1995-1-1']`
+
+#### Stock Indices
+
+Market Index
+- Provides an idea of how a given stock market is performing
+- Good enough proxy for development of the market
+
+These indices are an excellent comparator to understand how a stock is performing compared to the market as a whole.
+They also indicate what to expect if you invest in a diversified portfolio.
+
+
+
 ### 11. Measuring Investment Risk <a name="Measuring-Investment-Risk"></a>
 ### 12. Using Regressions for Financial Analysis <a name="Using-Regressions-for-Financial-Analysis"></a>
 ### 13. Markowitz Portfolio Optinmization <a name="Markowitz-Portfolio-Optinmization"></a>
