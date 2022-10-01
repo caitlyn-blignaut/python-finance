@@ -319,6 +319,27 @@ The data will come from one of 2 sources
   - Why use .csv files
     - Can still access data even with no connection
 
+#### Importing and Organising Data in Python
+Focus will be on the pandas package (with numpy to help us).
+
+Pandas Data Types
+- series => pandas.series()
+
+To import data from an API
+- use the pandas_datareader module
+```
+from pandas_datareader import data
+
+#e.g. data.DataReader('Ticker', 'data source name', start='start date')
+data.DataReader('MSFT', 'iex', start='2001-1-1')
+```
+
+N.B. You will need an API token for the iex API now
+
+To see the first and last 5 rows of your data - use the `.head()` and `.tail()` methods
+- you can specify the number of rows you want inside the parentheses - e.g. for the first 20 rows use `.head(20)`
+- 
+
 
 ## Part 2 - Finance <a name="Part2"></a>
 ### 10. Calculating and Comparing Rates of Return <a name="Calculating-and-Comparing-Rates-of-Return"></a>
