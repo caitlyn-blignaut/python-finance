@@ -1,8 +1,8 @@
 # Python for Finance: Investment Fundamentals & Data Analytics
 
-## Table of Contents
+### Table of Contents
 1. [Course Outline](#Course-Outline)
-### [Part 1 - Python](#Part1)
+#### [Part 1 - Python](#Part1)
 2. [Intro to Python](#Intro-to-Python)
 3. [Python Variables and Data Types](#Python-Variables-and-Data-Types)
 4. [Basic Python Syntax](#Basic-Python-Syntax)
@@ -11,7 +11,7 @@
 7. [Python Sequences](#Python-Sequences)
 8. [Using Iterations in Python](#Using-Iterations-in-Python)
 9. [Advanced Python Tools](#Advanced-Python-Tools)
-### [Part 2 - Finance](#Part2)
+#### [Part 2 - Finance](#Part2)
 10. [Calculating and Comparing Rates of Return](#Calculating-and-Comparing-Rates-of-Return)
 11. [Measuring Investment Risk](#Measuring-Investment-Risk)
 12. [Using Regressions for Financial Analysis](#Using-Regressions-for-Financial-Analysis)
@@ -19,7 +19,7 @@
 14. [The Capital Asset Pricing Model](#The-Capital-Asset-Pricing-Model)
 15. [Multivariate Regression Analysis](#Multivariate-Regression-Analysis)
 16. [Monte Carlo Simulations as a Decision-Making Tool](#Monte-Carlo-Simulations-as-a-Decision-Making-Tool)
-### [Appendix](#Appendix)
+#### [Appendix](#Appendix)
 17. [pandas Fundamentals](#pandas-Fundamentals)
 18. [Technical Analysis](#Technical-Analysis)
 
@@ -380,7 +380,78 @@ If you have already imported the data - you can use the `.set_index('ColumnName'
 - N.B. to update the dataframe - reassign the variable using the set_index method - e.g. `var = var.set_index('Date')`
 
 ## Part 2 - Finance <a name="Part2"></a>
+When making an investment consider 2 things always
+- The benefit of making a profit AND
+- The risk of making a loss
+
+Bonds
+- 3% returns rate
+- low risk
+- initial investment plus interest
+
+Stock
+- 6% return
+- high fluctuations
+- price change
+- higher returns are at the price of higher risk
+
+Art of finance = informed decisions based on risk and return
+
 ### 10. Calculating and Comparing Rates of Return <a name="Calculating-and-Comparing-Rates-of-Return"></a>
+
+#### Rate of Return
+Rate of return is used to compare performance of different investments
+$$
+ \text{simple rate of return} = {{ \text{ending price} -  \text{beginnng price}} \over  \text{beginning price}}
+$$
+
+$$
+ \text{logarithmic rate of return} = {\log({\text{ending price} \over \text{beginning price}})} = {\log{(\text{ending price})}-\log{(\text{beginning price})}}
+$$
+
+| Simple Rate of Return                    | Logarithmic Rate of Return |
+|------------------------------------------|----------------------------|
+| Multiple assets over the same time frame | Single asset over time     |
+
+#### Timeframe
+- Investments with different holding periods should not be compared
+- Typical timeframes
+  - Daily
+  - Monthly
+  - Quarterly
+  - Yearly (most common)
+
+$$
+{\text{annual return}} = [(\text{daily return}+1)^{365}]\times100 -1
+$$
+
+Historical vs Expected Rates of Return
+- We can't predict future rates of return
+- But we can calculate a best estimate
+- By looking at the history
+
+#### Python Implementation
+- Use pandas to import csv data
+- Use pandas.DataFrame and .shift() to get beginning and ending price
+  - e.g. `pandas.DataFrame.shift(# of lags)` - this shifts the index by # 
+  - We can use this to get the beginning price = closing price the previous day
+
+#### Plotting results on a graph
+Use pyplot from matplotlib
+```
+import matplotlib.pyplot as plt
+```
+
+To plot a columns values against the index column - use the `.plot()` method - e.g. `MSFT['simple_return'].plot(figsize=(8,5))`
+- The figsize parameter determines the size of the graph
+
+To display a plot - use the `.show()` method - e.g. `plt.show()`
+
+#### Interpreting the results
+We can use the `.mean()` method to get the average rate of return for a time period
+- In order to interpret this average meaningfully we need to take into account that we only receive data on trading days - +/- 250 trading days in a year
+- We need to multiply the average by 250 in order to get a meaningful average yearly rate of return 
+
 ### 11. Measuring Investment Risk <a name="Measuring-Investment-Risk"></a>
 ### 12. Using Regressions for Financial Analysis <a name="Using-Regressions-for-Financial-Analysis"></a>
 ### 13. Markowitz Portfolio Optinmization <a name="Markowitz-Portfolio-Optinmization"></a>
