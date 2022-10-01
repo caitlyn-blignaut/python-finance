@@ -276,6 +276,10 @@ Standard Library
 - Collection of modules
 - Contains things like len(), list Class, etc
 
+Installing modules
+- use `pip install` from the Anaconda prompt
+- To disbale sslVerify use `pip install <package_name> --trusted-host pypi.org --trusted-host files.pythonhosted.org`
+
 Importing Modules
 - To import a module use the `import` keyword - e.g. `import math`
 - To use functions from a module use the name of the module and the dot operator - e.g. `math.sqrt()`
@@ -324,7 +328,23 @@ Focus will be on the pandas package (with numpy to help us).
 
 Pandas Data Types
 - series => pandas.series()
+- data frames => pandas.DataFrame()
+  - pandas_datareader.data.DataReader() also returns a data frame
+  - To see the first and last 5 rows of your data - use the `.head()` and `.tail()` methods
+    - you can specify the number of rows you want inside the parentheses - e.g. for the first 20 rows use `.head(20)`
+  - To see the info for a DataFrame - use `.info()`
+- We can store columns from multiple data reads by referencing the column name as a key (like we did with dictionaries)
+```
+import pandas
+from pandas_datareader import data
 
+tickers = ['PG', MSFT', 'F']
+new_data = pandas.DataFrame()
+for t in tickers:
+  new_data[t] = data.DataReader(t, data_source='iex', start='2001-1-1')['Adj Close']
+```
+
+##### APIs
 To import data from an API
 - use the pandas_datareader module
 ```
@@ -333,13 +353,31 @@ from pandas_datareader import data
 #e.g. data.DataReader('Ticker', 'data source name', start='start date')
 data.DataReader('MSFT', 'iex', start='2001-1-1')
 ```
-
 N.B. You will need an API token for the iex API now
 
-To see the first and last 5 rows of your data - use the `.head()` and `.tail()` methods
-- you can specify the number of rows you want inside the parentheses - e.g. for the first 20 rows use `.head(20)`
-- 
+##### CSVs
+To import csv files 
+- use the pandas module
+- use the `.read_csv(filepath)` method
 
+To export csv files
+- use the pandas module
+- use the `.to_csv(filepath)` method
+
+##### Excel
+To import excel worksheet
+- use the pandas module
+- use the `.read_excel(filepath)` method
+
+To export excel worksheet
+- use the pandas module
+- use the `.to_excel(filepath)` method
+
+##### Change the index of Time-Series Data
+
+When importing from excel or csv - use the `index_col='ColumnName'` option - e.g. `pd.read_csv('FilePath', index_col='Date')`
+If you have already imported the data - you can use the `.set_index('ColumnName')` method to change the index column of an existing dataframe
+- N.B. to update the dataframe - reassign the variable using the set_index method - e.g. `var = var.set_index('Date')`
 
 ## Part 2 - Finance <a name="Part2"></a>
 ### 10. Calculating and Comparing Rates of Return <a name="Calculating-and-Comparing-Rates-of-Return"></a>
