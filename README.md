@@ -472,9 +472,38 @@ Market Index
 These indices are an excellent comparator to understand how a stock is performing compared to the market as a whole.
 They also indicate what to expect if you invest in a diversified portfolio.
 
-
-
 ### 11. Measuring Investment Risk <a name="Measuring-Investment-Risk"></a>
+
+What is Risk?
+- Variability is the best measure of risk we have.
+- Known rate of return.
+- Investors are risk averse.
+
+Statistical measures can help us to quantify risk. Such as:
+- Variance
+  - Measures the dispersion of a set of data points around the mean value
+  - $$s^2 = \frac{\sum(X-\bar{X})^2}{N-1}$$
+- Standard Deviation
+  - Square root of the variance
+  - $$s = \sqrt{s^2}$$
+
+Relationships between securities
+- Share prices are influenced by the state of the economy (consumer spending and jobs)
+  - Different industries are impacted in different ways
+- It is better to invest in companies in different industries
+
+Measuring the relationship between securities
+- Covariance
+  - $$\sigma_{xy} = \frac{(x-\bar{x})(y-\bar{y})}{n-1}$$
+  - The values of Covariance are difficult to compare as they can be very different
+- Correlation 
+  - Adjusts covariance so that we can interpret it more easily
+  - 0 correlation = independent
+  - negative correlation = variables move in opposite directions
+    - perfect = 1
+    - imperfect = between 0 and -1
+  - $$\rho = \frac{\sigma_{xy}}{s_xs_y}$$
+
 ### 12. Using Regressions for Financial Analysis <a name="Using-Regressions-for-Financial-Analysis"></a>
 ### 13. Markowitz Portfolio Optinmization <a name="Markowitz-Portfolio-Optinmization"></a>
 ### 14. The Capital Asset Pricing Model <a name="The-Capital-Asset-Pricing-Model"></a>
